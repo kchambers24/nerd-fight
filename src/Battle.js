@@ -32,7 +32,7 @@ class Battle extends Component {
     let fightMessages = battleData.data[0].fightData.map((message) => message.message);
     console.log(fightMessages);
     this.setState({
-      fightMessages: battleData.data[0].fightData.map((message) => <li>{message.message}</li>)
+      fightMessages: battleData.data[0].fightData.map((message) => <li className="textLine">{message.message}</li>)
     });
   }
   resetCharacters(){
