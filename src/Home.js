@@ -14,8 +14,8 @@ class Home extends Component {
     return (
       <div>
         <div className="Header">
-          <h1 id="app-name">Marvel Civil War</h1>
-          <img id="home-image" src={`http://i65.tinypic.com/f53q10.png`}/>
+          <img id="home-image" src={`http://vignette2.wikia.nocookie.net/logopedia/images/a/a8/Marvel-logo.png/revision/latest?cb=20140701230531`}/>
+          <h1 id="app-name">Civil War</h1>
           <p id="description">United We Stand. Divided We Fall.</p>
         <div className="fighterBox">
           <div className="fighterOne">

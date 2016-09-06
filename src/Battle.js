@@ -41,20 +41,22 @@ class Battle extends Component {
   render() {
     return(
       <div className="results">
-            <button className="fightBtn" onClick={this.handleClick.bind(this)}>Let the Fight Begin!</button>
+            <button className="fightBtn" onClick={this.handleClick.bind(this)}>Let's Battle!</button>
+
             <ul className="messages">
               {this.state.fightMessages}
             </ul>
+
             {/* hiding this until there is a winner */}
             {this.state.winner &&
               <div>
-                <p>The Winner Is {this.state.winner}</p>
-                <p>Loser is: {this.state.loser}</p>
+                <p className="wldText">The Winner Is {this.state.winner}</p>
+                <p className="wldText">Loser is: {this.state.loser}</p>
               </div>
             }
             {/* only show if there is a draw */}
             {this.state.draw &&
-              <p>The match ended in a draw</p>
+              <p className="wldText">The match ended in a draw</p>
             }
             {this.state.completed &&
             <button className="reset" onClick={this.resetCharacters}>Reset Characters</button>

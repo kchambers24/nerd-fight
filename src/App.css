@@ -1,8 +1,10 @@
+html {
 
+}
 
 .App {
   text-align: center;
-  background-color: darkblue;
+  background-image:url(http://i65.tinypic.com/35clgth.jpg);
   color: white;
 }
 
@@ -27,7 +29,7 @@
   to { transform: rotate(360deg); }
 }
 #home-image {
-  width: 1000px;
+  width: 500px;
 }
 
 .bioBox {
@@ -39,10 +41,13 @@
 }
 #app-name {
   font-family: 'Bangers';
-  font-size: 80px;
+  font-size: 8em;
   font-weight: 400;
-  padding-top: 50px;
-  color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #e23636;
+  margin: 0;
+
 }
 ul {
   list-style: none;
@@ -58,33 +63,45 @@ ul {
   font-size: 1em;
   padding: 5px;
   border-radius: 5px;
-  color: red;
+  color: #e23636;
   background-color: #bada55;
 }
 .fightBtn {
-  font-size: 1em;
+  font-family: 'Bangers';
+  font-size: 2em;
   padding: 10px;
   border-radius: 5px;
-  color: red;
-  background-color: #bada55;
+  color: #e23636;
+  background-color: white;
   margin-bottom: 25px;
 }
 .sendBattleBtn {
   font-size: 1em;
   padding: 5px;
   border-radius: 5px;
-  color: red;
+  color: #e23636;
   background-color: #bada55;
 }
 .selectList {
   font-size: 1.5em;
-  color: red;
+  color: #e23636;
   background-color: #bada55;
 }
 .label {
   font-family: 'Bangers';
   font-size: 2em;
   border-radius: 5px;
-  color: red;
+  color: #e23636;
   padding-bottom: 15px;
+}
+.messages {
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+}
+.wldText {
+  font-family: 'Bangers';
+  font-size: 3em;
+  color: #e23636;
+  background-color: white;
 }
