@@ -1,0 +1,90 @@
+
+
+.App {
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+#home-image {
+  width: 1000px;
+}
+
+.bioBox {
+  border: 1px solid black;
+}
+#description {
+  font-size: 45px;
+  font-weight: 500;
+}
+#app-name {
+  font-family: 'Bangers';
+  font-size: 80px;
+  font-weight: 400;
+  padding-top: 50px;
+  color: red;
+}
+ul {
+  list-style: none;
+}
+.fighterBox {
+  display:flex
+}
+.fighterOne {
+  min-width: 50%;
+}
+.reset {
+  margin-bottom: 50px;
+  font-size: 1em;
+  padding: 5px;
+  border-radius: 5px;
+  color: red;
+  background-color: #bada55;
+}
+.fightBtn {
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 5px;
+  color: red;
+  background-color: #bada55;
+  margin-bottom: 25px;
+}
+.sendBattleBtn {
+  font-size: 1em;
+  padding: 5px;
+  border-radius: 5px;
+  color: red;
+  background-color: #bada55;
+}
+.selectList {
+  font-size: 1.5em;
+  color: red;
+  background-color: #bada55;
+}
+.label {
+  font-family: 'Bangers';
+  font-size: 2em;
+  border-radius: 5px;
+  color: red;
+  padding-bottom: 15px;
+}
