@@ -98,10 +98,16 @@ ul {
   font-size: 25px;
   color: white;
   font-weight: 600;
+  background-color: rgba(0, 54, 94, 0.6);
+  padding: 20px;
+
 }
 .wldText {
   font-family: 'Bangers';
   font-size: 3em;
   color: #e23636;
   background-color: white;
+}
+.textLine {
+  margin: 5px 0;
 }
