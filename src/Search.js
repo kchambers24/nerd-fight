@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import SuperHeroInfo from './Character.js';
 import characters from './data/CharacterStats.js';
-import FilterCharacter from './FilterCharacter.js'
+import FilterCharacter from './FilterCharacter.js';
 import _ from 'lodash'
 
 class Search extends Component {
@@ -29,7 +29,7 @@ class Search extends Component {
     });
     event.preventDefault();
     $.ajax({
-      // heading marvel API to look up character by name
+      // using marvel API to look up character by name
         url: `http://gateway.marvel.com:80/v1/public/characters?name=${heroName}&apikey=2e264257579ec772309983d87144e044`,
         type: 'GET',
         success: function(response) {
@@ -52,7 +52,7 @@ class Search extends Component {
         <select className="selectList" ref="selectBox" onChange={this.handleSubmit.bind(this)}>
           <option value="">Select a Character</option>
 
-            {/* shorthand for mapping over characters to create an option for each one I did this because I was tired of typing the characters name the wrong way. This way I get back all the correct names
+            {/* shorthand for mapping over characters to create an option for each one, I did this because I was tired of typing the characters name the wrong way. This way I get back all the correct names in a drop down list
             */}
           {
             characters.map(character => <option key={character.id} value={character.name}

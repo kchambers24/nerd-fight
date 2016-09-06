@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './App.css'
-import Search from './Search'
-import Battle from './Battle'
+import './App.css';
+import Search from './Search';
+import Battle from './Battle';
 
 class Home extends Component {
   constructor() {
